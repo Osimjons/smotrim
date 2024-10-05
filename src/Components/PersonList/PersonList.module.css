@@ -1,0 +1,9 @@
+.container {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}

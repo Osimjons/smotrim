@@ -1,0 +1,30 @@
+.sliderWrapper {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.arrowLeft,
+.arrowRight {
+  width: 48px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  background: #fff url(../../../public/arrow.svg) center/ 70% no-repeat;
+  transform: translate(0, -50%);
+}
+
+.arrowLeft {
+  transform: rotate(180deg) translate(0, 50%);
+}

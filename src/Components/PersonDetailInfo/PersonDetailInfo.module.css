@@ -1,0 +1,18 @@
+.modalHeader {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.modalTitle {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.41px;
+}
+
+.modalImg {
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
