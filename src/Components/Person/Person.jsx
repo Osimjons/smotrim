@@ -7,7 +7,10 @@ export const Person = ({ person, onclick }) => {
   return (
     <div className={styles.personСard} onClick={() => onclick(person)}>
       {imageUrl && <img src={imageUrl} alt={person?.name} />}
-      <p>{person?.name}</p>
+      <div className={styles.names}>
+        <span>{person?.name}</span>
+        <span>{person?.surname}</span>
+      </div>
     </div>
   );
 };
